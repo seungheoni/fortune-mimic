@@ -1,22 +1,15 @@
-# Toy Project: Backend Server with Ollama, Spring AI, and Flutter
+# Toy Project: 행운을 말하는 미믹
 
 ## 프로젝트 개요
-
-이 프로젝트는 Ollama, Spring AI, 그리고 Flutter를 사용해 구성한 백엔드 서버입니다. Ollama는 로컬에서 모델을 구동하고, Spring AI는 Ollama와 연결되어 사용자 요청을 처리합니다. Flutter는 사용자 인터페이스로, 백엔드와 통신해 결과를 화면에 보여줍니다.
+이 프로젝트의 주요 기능은 사용자에게 오늘의 운세와 행운의 메시지를 제공하는 것입니다. Flutter 앱에서 사용자가 요청을 보내면, Spring AI가 Ollama를 통해 운세와 행운의 메시지를 생성하고 그 결과를 사용자에게 반환합니다.
 
 ## 기술 스택
 - **Ollama**: 로컬 AI 모델 호스팅 및 텍스트 생성 처리
 - **Spring AI**: Ollama와 상호작용하는 백엔드 애플리케이션 구성
 - **Flutter**: 사용자 인터페이스 및 클라이언트 애플리케이션
 
-## 프로젝트 구조
-- **Ollama 서버**: 로컬 머신에 AI 모델을 호스팅하고 `http://<server-ip>:11434`에서 서비스 제공.
-- **Spring AI**: Ollama의 API와 통신하여 클라이언트의 요청을 처리하고 필요한 응답 생성.
-- **Flutter 앱**: 백엔드와 통신하여 Ollama의 응답을 사용자에게 표시.
-
 ### 구성도
 ![image](https://github.com/user-attachments/assets/15a35521-0831-4469-abb0-f7b5029315b6)
-
 
 ## 구성 및 설정
 ### 1. Ollama 설치 및 모델 다운로드
