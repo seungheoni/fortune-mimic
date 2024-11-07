@@ -14,8 +14,17 @@
 - **Spring AI**: Ollama의 API와 통신하여 클라이언트의 요청을 처리하고 필요한 응답 생성.
 - **Flutter 앱**: 백엔드와 통신하여 Ollama의 응답을 사용자에게 표시.
 
+### 구성도
+![image](https://github.com/user-attachments/assets/adcb37ab-f8e9-4569-a14a-70b4ca236623)
+
+
+
+
 ## 구성 및 설정
 ### 1. Ollama 설치 및 모델 다운로드
+<details>
+<summary>설치 및 다운로드 방법 보기</summary>
+
 - Ollama 설치 후 필요한 모델을 다운로드:
   ```bash
   ollama pull EEVE-Korean-10.8B
