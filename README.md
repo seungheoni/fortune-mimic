@@ -15,9 +15,7 @@
 - **Flutter 앱**: 백엔드와 통신하여 Ollama의 응답을 사용자에게 표시.
 
 ### 구성도
-![image](https://github.com/user-attachments/assets/adcb37ab-f8e9-4569-a14a-70b4ca236623)
-
-
+![image](https://github.com/user-attachments/assets/15a35521-0831-4469-abb0-f7b5029315b6)
 
 
 ## 구성 및 설정
