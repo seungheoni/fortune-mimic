@@ -1,7 +1,7 @@
 spring:
   ai:
     ollama:
-      base-url: http://172.16.120.123:11434
+      base-url: http://223.130.153.24:11434
       chat:
         options:
           model: EEVE-Korean-10.8B
