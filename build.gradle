@@ -39,3 +39,8 @@ dependencyManagement {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+
+bootJar {
+    archiveFileName = 'MIMIC.AI.jar'
+}
